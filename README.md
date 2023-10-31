@@ -3,10 +3,10 @@
 A simple Unity C# script that utilizes the Rigidbody component to make a GameObject (vehicle) hover, similar to the hovering vehicles in sci-fi games and movies.
 
 Attach this script to a GameObject in the Scene Hierarchy, and create under it four empty GameObject children, which you can call for example:
-- "_HoverPoint-FrontLeft_" 
-- "_HoverPoint-FrontRight_"
-- "_HoverPoint-BackLeft_"
-- "_HoverPoint-BackRight_" 
+- HoverPoint-FrontLeft 
+- HoverPoint-FrontRight
+- HoverPoint-BackLeft
+- HoverPoint-BackRight 
 
 They'll act as the Rigidbody's pillars through which AddForceAtPosition() is applied. 
 
